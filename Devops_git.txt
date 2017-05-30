@@ -1,0 +1,27 @@
+[root@venkata1 Packages]# sudo yum groupinstall “Development Tools”
+Loaded plugins: product-id, refresh-packagekit, security, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+file:///cdrom/Server/repodata/repomd.xml: [Errno 14] Could not open/read file:///cdrom/Server/repodata/repomd.xml
+Trying other mirror.
+Error: Cannot retrieve repository metadata (repomd.xml) for repository: dvd-source. Please verify its path and try again
+[root@venkata1 Packages]# sudo yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel
+Loaded plugins: product-id, refresh-packagekit, security, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+file:///cdrom/Server/repodata/repomd.xml: [Errno 14] Could not open/read file:///cdrom/Server/repodata/repomd.xml
+Trying other mirror.
+Error: Cannot retrieve repository metadata (repomd.xml) for repository: dvd-source. Please verify its path and try again
+[root@venkata1 Packages]# cd /Venkata
+-bash: cd: /Venkata: No such file or directory
+[root@venkata1 Packages]# cd
+[root@venkata1 ~]# cd /
+.autofsck   boot/       cgroup/     dev/        home/       lost+found/ misc/       net/        proc/       sbin/       srv/        tmp/        var/
+bin/        cdrom/      .dbus/      etc/        lib/        media/      mnt/        opt/        root/       selinux/    sys/        usr/        venkata/
+[root@venkata1 ~]# cd /
+.autofsck   boot/       cgroup/     dev/        home/       lost+found/ misc/       net/        proc/       sbin/       srv/        tmp/        var/
+bin/        cdrom/      .dbus/      etc/        lib/        media/      mnt/        opt/        root/       selinux/    sys/        usr/        venkata/
+[root@venkata1 ~]# cd /venkata/git/
+[root@venkata1 git]# wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz
+--2017-05-24 17:30:10--  https://github.com/git/git/archive/v2.7.2.tar.gz
+Resolving github.com... failed: Temporary failure in name resolution.
+wget: unable to resolve host address “github.com”
+[root@venkata1 git]#
